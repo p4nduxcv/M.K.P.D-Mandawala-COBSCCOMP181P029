@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C6B23712B15000194FC /* AppDelegate.swift */; };
+		FD375C6E23712B15000194FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C6D23712B15000194FC /* ViewController.swift */; };
+		FD375C7123712B15000194FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD375C6F23712B15000194FC /* Main.storyboard */; };
+		FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD375C7223712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld */; };
+		FD375C7623712B16000194FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD375C7523712B16000194FC /* Assets.xcassets */; };
+		FD375C7923712B16000194FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD375C7723712B16000194FC /* LaunchScreen.storyboard */; };
+		FD375C8423712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C8323712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift */; };
+		FD375C8F23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD375C8023712B16000194FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD375C6023712B15000194FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD375C6723712B15000194FC;
+			remoteInfo = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+		};
+		FD375C8B23712B16000194FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD375C6023712B15000194FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD375C6723712B15000194FC;
+			remoteInfo = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD375C6823712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M.K.P.D-Mandawala-COBSCCOMP181P029.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD375C6B23712B15000194FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD375C6D23712B15000194FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD375C7023712B15000194FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD375C7323712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodel; sourceTree = "<group>"; };
+		FD375C7523712B16000194FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD375C7823712B16000194FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD375C7A23712B16000194FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD375C7F23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M.K.P.D-Mandawala-COBSCCOMP181P029Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD375C8323712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift; sourceTree = "<group>"; };
+		FD375C8523712B16000194FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD375C8A23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift; sourceTree = "<group>"; };
+		FD375C9023712B16000194FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD375C6523712B15000194FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD375C7C23712B16000194FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD375C8723712B16000194FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD375C5F23712B15000194FC = {
+			isa = PBXGroup;
+			children = (
+				FD375C6A23712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */,
+				FD375C8223712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests */,
+				FD375C8D23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests */,
+				FD375C6923712B15000194FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD375C6923712B15000194FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD375C6823712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029.app */,
+				FD375C7F23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests.xctest */,
+				FD375C8A23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD375C6A23712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */ = {
+			isa = PBXGroup;
+			children = (
+				FD375C6B23712B15000194FC /* AppDelegate.swift */,
+				FD375C6D23712B15000194FC /* ViewController.swift */,
+				FD375C6F23712B15000194FC /* Main.storyboard */,
+				FD375C7523712B16000194FC /* Assets.xcassets */,
+				FD375C7723712B16000194FC /* LaunchScreen.storyboard */,
+				FD375C7A23712B16000194FC /* Info.plist */,
+				FD375C7223712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld */,
+			);
+			path = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+			sourceTree = "<group>";
+		};
+		FD375C8223712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD375C8323712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift */,
+				FD375C8523712B16000194FC /* Info.plist */,
+			);
+			path = "M.K.P.D-Mandawala-COBSCCOMP181P029Tests";
+			sourceTree = "<group>";
+		};
+		FD375C8D23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */,
+				FD375C9023712B16000194FC /* Info.plist */,
+			);
+			path = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD375C6723712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD375C9323712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029" */;
+			buildPhases = (
+				FD375C6423712B15000194FC /* Sources */,
+				FD375C6523712B15000194FC /* Frameworks */,
+				FD375C6623712B15000194FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+			productName = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+			productReference = FD375C6823712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD375C7E23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD375C9623712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029Tests" */;
+			buildPhases = (
+				FD375C7B23712B16000194FC /* Sources */,
+				FD375C7C23712B16000194FC /* Frameworks */,
+				FD375C7D23712B16000194FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD375C8123712B16000194FC /* PBXTargetDependency */,
+			);
+			name = "M.K.P.D-Mandawala-COBSCCOMP181P029Tests";
+			productName = "M.K.P.D-Mandawala-COBSCCOMP181P029Tests";
+			productReference = FD375C7F23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD375C8923712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD375C9923712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029UITests" */;
+			buildPhases = (
+				FD375C8623712B16000194FC /* Sources */,
+				FD375C8723712B16000194FC /* Frameworks */,
+				FD375C8823712B16000194FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD375C8C23712B16000194FC /* PBXTargetDependency */,
+			);
+			name = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests";
+			productName = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests";
+			productReference = FD375C8A23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD375C6023712B15000194FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Pandula Mandawala";
+				TargetAttributes = {
+					FD375C6723712B15000194FC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					FD375C7E23712B16000194FC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FD375C6723712B15000194FC;
+					};
+					FD375C8923712B16000194FC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FD375C6723712B15000194FC;
+					};
+				};
+			};
+			buildConfigurationList = FD375C6323712B15000194FC /* Build configuration list for PBXProject "M.K.P.D-Mandawala-COBSCCOMP181P029" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD375C5F23712B15000194FC;
+			productRefGroup = FD375C6923712B15000194FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD375C6723712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */,
+				FD375C7E23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests */,
+				FD375C8923712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD375C6623712B15000194FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD375C7923712B16000194FC /* LaunchScreen.storyboard in Resources */,
+				FD375C7623712B16000194FC /* Assets.xcassets in Resources */,
+				FD375C7123712B15000194FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD375C7D23712B16000194FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD375C8823712B16000194FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD375C6423712B15000194FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD375C6E23712B15000194FC /* ViewController.swift in Sources */,
+				FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */,
+				FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD375C7B23712B16000194FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD375C8423712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD375C8623712B16000194FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD375C8F23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD375C8123712B16000194FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD375C6723712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */;
+			targetProxy = FD375C8023712B16000194FC /* PBXContainerItemProxy */;
+		};
+		FD375C8C23712B16000194FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD375C6723712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */;
+			targetProxy = FD375C8B23712B16000194FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD375C6F23712B15000194FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD375C7023712B15000194FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD375C7723712B16000194FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD375C7823712B16000194FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD375C9123712B16000194FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD375C9223712B16000194FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD375C9423712B16000194FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "M.K.P.D-Mandawala-COBSCCOMP181P029/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panduxcv.M-K-P-D-Mandawala-COBSCCOMP181P029";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD375C9523712B16000194FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "M.K.P.D-Mandawala-COBSCCOMP181P029/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panduxcv.M-K-P-D-Mandawala-COBSCCOMP181P029";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD375C9723712B16000194FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "M.K.P.D-Mandawala-COBSCCOMP181P029Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panduxcv.M-K-P-D-Mandawala-COBSCCOMP181P029Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M.K.P.D-Mandawala-COBSCCOMP181P029.app/M.K.P.D-Mandawala-COBSCCOMP181P029";
+			};
+			name = Debug;
+		};
+		FD375C9823712B16000194FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "M.K.P.D-Mandawala-COBSCCOMP181P029Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panduxcv.M-K-P-D-Mandawala-COBSCCOMP181P029Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M.K.P.D-Mandawala-COBSCCOMP181P029.app/M.K.P.D-Mandawala-COBSCCOMP181P029";
+			};
+			name = Release;
+		};
+		FD375C9A23712B16000194FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panduxcv.M-K-P-D-Mandawala-COBSCCOMP181P029UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+			};
+			name = Debug;
+		};
+		FD375C9B23712B16000194FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panduxcv.M-K-P-D-Mandawala-COBSCCOMP181P029UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "M.K.P.D-Mandawala-COBSCCOMP181P029";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD375C6323712B15000194FC /* Build configuration list for PBXProject "M.K.P.D-Mandawala-COBSCCOMP181P029" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD375C9123712B16000194FC /* Debug */,
+				FD375C9223712B16000194FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD375C9323712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD375C9423712B16000194FC /* Debug */,
+				FD375C9523712B16000194FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD375C9623712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD375C9723712B16000194FC /* Debug */,
+				FD375C9823712B16000194FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD375C9923712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD375C9A23712B16000194FC /* Debug */,
+				FD375C9B23712B16000194FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD375C7223712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD375C7323712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodel */,
+			);
+			currentVersion = FD375C7323712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodel */;
+			path = M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD375C6023712B15000194FC /* Project object */;
+}
