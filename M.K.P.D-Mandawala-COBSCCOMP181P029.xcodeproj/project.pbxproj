@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B30F9E8F1D75111630F6277 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC0DA03847C8ACE238655CF /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029Tests.framework */; };
+		5DD93489D99F10B22F7C1692 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029_M_K_P_D_Mandawala_COBSCCOMP181P029UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61493C86060391C7A0D4351 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029_M_K_P_D_Mandawala_COBSCCOMP181P029UITests.framework */; };
+		6E65247CBA66036B5F0DC9E4 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B466ADB7EC8FA40EF5A6B9 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029.framework */; };
 		FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C6B23712B15000194FC /* AppDelegate.swift */; };
 		FD375C6E23712B15000194FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C6D23712B15000194FC /* ViewController.swift */; };
 		FD375C7123712B15000194FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD375C6F23712B15000194FC /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09C6CE19C91B0C7989D2C665 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.release.xcconfig"; path = "Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.release.xcconfig"; sourceTree = "<group>"; };
+		5DC0DA03847C8ACE238655CF /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M_K_P_D_Mandawala_COBSCCOMP181P029Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DEBBFE53D19CE4B9C2A395 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.release.xcconfig"; path = "Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.release.xcconfig"; sourceTree = "<group>"; };
+		761B1D1CB1AFC2D58FC9D432 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.debug.xcconfig"; path = "Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		88B466ADB7EC8FA40EF5A6B9 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M_K_P_D_Mandawala_COBSCCOMP181P029.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FA949ABE38CF3D31F176B3 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.release.xcconfig"; path = "Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2593AD8825134F1F823BCC0 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.debug.xcconfig"; path = "Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8522DBE9F52BE012067BF4 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.debug.xcconfig"; path = "Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F61493C86060391C7A0D4351 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029_M_K_P_D_Mandawala_COBSCCOMP181P029UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M_K_P_D_Mandawala_COBSCCOMP181P029_M_K_P_D_Mandawala_COBSCCOMP181P029UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD375C6823712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M.K.P.D-Mandawala-COBSCCOMP181P029.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD375C6B23712B15000194FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD375C6D23712B15000194FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E65247CBA66036B5F0DC9E4 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B30F9E8F1D75111630F6277 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD93489D99F10B22F7C1692 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029_M_K_P_D_Mandawala_COBSCCOMP181P029UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143484093A4777494B0FD704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88B466ADB7EC8FA40EF5A6B9 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029.framework */,
+				F61493C86060391C7A0D4351 /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029_M_K_P_D_Mandawala_COBSCCOMP181P029UITests.framework */,
+				5DC0DA03847C8ACE238655CF /* Pods_M_K_P_D_Mandawala_COBSCCOMP181P029Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA83FCED7980AFC9AD0EBA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2593AD8825134F1F823BCC0 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.debug.xcconfig */,
+				09C6CE19C91B0C7989D2C665 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.release.xcconfig */,
+				DA8522DBE9F52BE012067BF4 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.debug.xcconfig */,
+				A0FA949ABE38CF3D31F176B3 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.release.xcconfig */,
+				761B1D1CB1AFC2D58FC9D432 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.debug.xcconfig */,
+				71DEBBFE53D19CE4B9C2A395 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FD375C5F23712B15000194FC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				FD375C8223712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029Tests */,
 				FD375C8D23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests */,
 				FD375C6923712B15000194FC /* Products */,
+				8FA83FCED7980AFC9AD0EBA8 /* Pods */,
+				143484093A4777494B0FD704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD375C9323712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029" */;
 			buildPhases = (
+				0F0049F79F680F79A649C9D0 /* [CP] Check Pods Manifest.lock */,
 				FD375C6423712B15000194FC /* Sources */,
 				FD375C6523712B15000194FC /* Frameworks */,
 				FD375C6623712B15000194FC /* Resources */,
+				7FC22C2F6767AD12DDFC1791 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD375C9623712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029Tests" */;
 			buildPhases = (
+				C80F61975A9B3E8E5FD813C3 /* [CP] Check Pods Manifest.lock */,
 				FD375C7B23712B16000194FC /* Sources */,
 				FD375C7C23712B16000194FC /* Frameworks */,
 				FD375C7D23712B16000194FC /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD375C9923712B16000194FC /* Build configuration list for PBXNativeTarget "M.K.P.D-Mandawala-COBSCCOMP181P029UITests" */;
 			buildPhases = (
+				47113A7283029DE2839B907B /* [CP] Check Pods Manifest.lock */,
 				FD375C8623712B16000194FC /* Sources */,
 				FD375C8723712B16000194FC /* Frameworks */,
 				FD375C8823712B16000194FC /* Resources */,
+				FCC6910380FAC577E2D3684B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0049F79F680F79A649C9D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47113A7283029DE2839B907B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC22C2F6767AD12DDFC1791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80F61975A9B3E8E5FD813C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC6910380FAC577E2D3684B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests/Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD375C6423712B15000194FC /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		FD375C9423712B16000194FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2593AD8825134F1F823BCC0 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +601,7 @@
 		};
 		FD375C9523712B16000194FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C6CE19C91B0C7989D2C665 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		FD375C9723712B16000194FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761B1D1CB1AFC2D58FC9D432 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +640,7 @@
 		};
 		FD375C9823712B16000194FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DEBBFE53D19CE4B9C2A395 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		FD375C9A23712B16000194FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8522DBE9F52BE012067BF4 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		FD375C9B23712B16000194FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FA949ABE38CF3D31F176B3 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029-M.K.P.D-Mandawala-COBSCCOMP181P029UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
