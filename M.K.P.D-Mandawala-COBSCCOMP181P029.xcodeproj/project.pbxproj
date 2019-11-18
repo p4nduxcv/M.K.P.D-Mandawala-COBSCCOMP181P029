@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		FD375C7923712B16000194FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD375C7723712B16000194FC /* LaunchScreen.storyboard */; };
 		FD375C8423712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C8323712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift */; };
 		FD375C8F23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */; };
+		FD4FE6612382485000793A7F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4FE6602382484F00793A7F /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FD375C8A23712B16000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift; sourceTree = "<group>"; };
 		FD375C9023712B16000194FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4FE6602382484F00793A7F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				761B1D1CB1AFC2D58FC9D432 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.debug.xcconfig */,
 				71DEBBFE53D19CE4B9C2A395 /* Pods-M.K.P.D-Mandawala-COBSCCOMP181P029Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +147,7 @@
 				FD375C7523712B16000194FC /* Assets.xcassets */,
 				FD375C7723712B16000194FC /* LaunchScreen.storyboard */,
 				FD375C7A23712B16000194FC /* Info.plist */,
+				FD4FE6602382484F00793A7F /* logo.png */,
 				FD375C7223712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld */,
 			);
 			path = "M.K.P.D-Mandawala-COBSCCOMP181P029";
@@ -278,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4FE6612382485000793A7F /* logo.png in Resources */,
 				FD375C7923712B16000194FC /* LaunchScreen.storyboard in Resources */,
 				FD375C7623712B16000194FC /* Assets.xcassets in Resources */,
 				FD375C7123712B15000194FC /* Main.storyboard in Resources */,
