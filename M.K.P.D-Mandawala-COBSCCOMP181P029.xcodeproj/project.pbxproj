@@ -19,6 +19,9 @@
 		FD375C8423712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C8323712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029Tests.swift */; };
 		FD375C8F23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */; };
 		FD4FE6612382485000793A7F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4FE6602382484F00793A7F /* logo.png */; };
+		FD72878F238305ED001AA5DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72878E238305ED001AA5DF /* LoginViewController.swift */; };
+		FD7287912383064C001AA5DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7287902383064C001AA5DF /* HomeViewController.swift */; };
+		FD72879423830CC8001AA5DF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72879323830CC8001AA5DF /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		FD375C8E23712B16000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_K_P_D_Mandawala_COBSCCOMP181P029UITests.swift; sourceTree = "<group>"; };
 		FD375C9023712B16000194FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4FE6602382484F00793A7F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FD72878E238305ED001AA5DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD7287902383064C001AA5DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FD72879323830CC8001AA5DF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				FD375C6B23712B15000194FC /* AppDelegate.swift */,
-				FD375C6D23712B15000194FC /* ViewController.swift */,
+				FD72879223830686001AA5DF /* View Controllers */,
 				FD375C6F23712B15000194FC /* Main.storyboard */,
 				FD375C7523712B16000194FC /* Assets.xcassets */,
 				FD375C7723712B16000194FC /* LaunchScreen.storyboard */,
@@ -169,6 +175,17 @@
 				FD375C9023712B16000194FC /* Info.plist */,
 			);
 			path = "M.K.P.D-Mandawala-COBSCCOMP181P029UITests";
+			sourceTree = "<group>";
+		};
+		FD72879223830686001AA5DF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD375C6D23712B15000194FC /* ViewController.swift */,
+				FD72878E238305ED001AA5DF /* LoginViewController.swift */,
+				FD7287902383064C001AA5DF /* HomeViewController.swift */,
+				FD72879323830CC8001AA5DF /* SignUpViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +428,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD72879423830CC8001AA5DF /* SignUpViewController.swift in Sources */,
+				FD7287912383064C001AA5DF /* HomeViewController.swift in Sources */,
+				FD72878F238305ED001AA5DF /* LoginViewController.swift in Sources */,
 				FD375C6E23712B15000194FC /* ViewController.swift in Sources */,
 				FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */,
 				FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */,
