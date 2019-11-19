@@ -53,6 +53,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="PZx-Dz-wb7"/>
+                    <connections>
+                        <outlet property="loginButton" destination="fdN-Xb-bzF" id="Eo3-2G-P9M"/>
+                        <outlet property="signUpButton" destination="iW2-iF-YpS" id="Cr2-R2-Bd1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,7 +90,10 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="439-P8-O9Y"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="9mS-dF-tra" eventType="touchUpInside" id="KSY-mJ-NlS"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CiX-2a-nMX">
                                         <rect key="frame" x="0.0" y="180" width="334" height="20.5"/>
@@ -109,6 +116,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Cy-XJ-cvV"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="DOf-Gy-chk" id="HQx-0n-S7T"/>
+                        <outlet property="errorLabel" destination="CiX-2a-nMX" id="aqD-Dg-WVr"/>
+                        <outlet property="loginButton" destination="Nlg-wY-C9R" id="B7h-Jo-FuO"/>
+                        <outlet property="passwordTextField" destination="PUp-bl-UBq" id="HIc-qd-Lph"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGX-35-X1d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,7 +200,7 @@
         <!--Home View Controller-->
         <scene sceneID="wUN-2N-XAl">
             <objects>
-                <viewController id="Myo-vd-8yY" customClass="HomeViewController" customModule="M_K_P_D_Mandawala_COBSCCOMP181P029" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="Myo-vd-8yY" customClass="HomeViewController" customModule="M_K_P_D_Mandawala_COBSCCOMP181P029" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lTc-0b-JHy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

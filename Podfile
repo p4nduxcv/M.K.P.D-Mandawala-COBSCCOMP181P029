@@ -7,6 +7,10 @@ target 'M.K.P.D-Mandawala-COBSCCOMP181P029' do
 
   pod 'Alamofire', '~> 4.7' 
   pod 'SwiftyJSON', '~> 4.0'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
   # Pods for M.K.P.D-Mandawala-COBSCCOMP181P029
 
   target 'M.K.P.D-Mandawala-COBSCCOMP181P029Tests' do

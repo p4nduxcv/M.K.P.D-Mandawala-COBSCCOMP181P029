@@ -22,6 +22,8 @@
 		FD72878F238305ED001AA5DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72878E238305ED001AA5DF /* LoginViewController.swift */; };
 		FD7287912383064C001AA5DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7287902383064C001AA5DF /* HomeViewController.swift */; };
 		FD72879423830CC8001AA5DF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72879323830CC8001AA5DF /* SignUpViewController.swift */; };
+		FD7EE86C23845ADE00978D77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD7EE86B23845ADE00978D77 /* GoogleService-Info.plist */; };
+		FD7EE86E2384732700978D77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EE86D2384732700978D77 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		FD72878E238305ED001AA5DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FD7287902383064C001AA5DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD72879323830CC8001AA5DF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FD7EE86B23845ADE00978D77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD7EE86D2384732700978D77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,11 +151,13 @@
 		FD375C6A23712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */ = {
 			isa = PBXGroup;
 			children = (
+				FD7EE86A23844A9700978D77 /* Helpers */,
 				FD375C6B23712B15000194FC /* AppDelegate.swift */,
 				FD72879223830686001AA5DF /* View Controllers */,
 				FD375C6F23712B15000194FC /* Main.storyboard */,
 				FD375C7523712B16000194FC /* Assets.xcassets */,
 				FD375C7723712B16000194FC /* LaunchScreen.storyboard */,
+				FD7EE86B23845ADE00978D77 /* GoogleService-Info.plist */,
 				FD375C7A23712B16000194FC /* Info.plist */,
 				FD4FE6602382484F00793A7F /* logo.png */,
 				FD375C7223712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld */,
@@ -186,6 +192,14 @@
 				FD72879323830CC8001AA5DF /* SignUpViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FD7EE86A23844A9700978D77 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FD7EE86D2384732700978D77 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +313,7 @@
 			files = (
 				FD4FE6612382485000793A7F /* logo.png in Resources */,
 				FD375C7923712B16000194FC /* LaunchScreen.storyboard in Resources */,
+				FD7EE86C23845ADE00978D77 /* GoogleService-Info.plist in Resources */,
 				FD375C7623712B16000194FC /* Assets.xcassets in Resources */,
 				FD375C7123712B15000194FC /* Main.storyboard in Resources */,
 			);
@@ -432,6 +447,7 @@
 				FD7287912383064C001AA5DF /* HomeViewController.swift in Sources */,
 				FD72878F238305ED001AA5DF /* LoginViewController.swift in Sources */,
 				FD375C6E23712B15000194FC /* ViewController.swift in Sources */,
+				FD7EE86E2384732700978D77 /* Constants.swift in Sources */,
 				FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */,
 				FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */,
 			);
