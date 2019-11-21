@@ -26,6 +26,7 @@
 		FD7EE86E2384732700978D77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EE86D2384732700978D77 /* Constants.swift */; };
 		FD980C6B2385B5E600459299 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C6A2385B5E600459299 /* MyProfileViewController.swift */; };
 		FD980C6F238663CB00459299 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C6E238663CB00459299 /* TabViewController.swift */; };
+		FD980C752386BE2E00459299 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C742386BE2E00459299 /* ResetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		FD7EE86D2384732700978D77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FD980C6A2385B5E600459299 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		FD980C6E238663CB00459299 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		FD980C742386BE2E00459299 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				FD72879323830CC8001AA5DF /* SignUpViewController.swift */,
 				FD980C6A2385B5E600459299 /* MyProfileViewController.swift */,
 				FD980C6E238663CB00459299 /* TabViewController.swift */,
+				FD980C742386BE2E00459299 /* ResetPasswordViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				FD7EE86E2384732700978D77 /* Constants.swift in Sources */,
 				FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */,
 				FD980C6F238663CB00459299 /* TabViewController.swift in Sources */,
+				FD980C752386BE2E00459299 /* ResetPasswordViewController.swift in Sources */,
 				FD980C6B2385B5E600459299 /* MyProfileViewController.swift in Sources */,
 				FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BiometricAuthentication
 
 class TabViewController: UITabBarController {
 
@@ -15,7 +16,8 @@ class TabViewController: UITabBarController {
 
         // Do any additional setup after loading the view.
     }
-    
+
+
 
     /*
     // MARK: - Navigation
@@ -28,3 +30,5 @@ class TabViewController: UITabBarController {
     */
 
 }
+
+

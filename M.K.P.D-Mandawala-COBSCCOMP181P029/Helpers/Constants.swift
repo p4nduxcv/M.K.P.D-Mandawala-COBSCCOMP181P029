@@ -13,5 +13,6 @@ struct Constants {
        //static let homeViewController = "HomeVC"
         // usage of tab bar
         static let tapViewController = "TapVC"
+        static let loginViewController = "LoginVC"
     }
 }

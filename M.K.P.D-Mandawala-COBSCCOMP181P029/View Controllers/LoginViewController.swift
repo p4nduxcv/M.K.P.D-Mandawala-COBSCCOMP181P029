@@ -20,6 +20,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var errorLabel: UILabel!
     
+    @IBOutlet weak var resetPasswordButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,6 +47,7 @@ class LoginViewController: UIViewController {
         
         let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
         Auth.auth().signIn(withEmail: email, password: password) { (result,error) in
             if error != nil {
                 self.errorLabel.text = error!.localizedDescription

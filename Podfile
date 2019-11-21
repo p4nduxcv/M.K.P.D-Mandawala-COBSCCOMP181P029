@@ -11,6 +11,7 @@ target 'M.K.P.D-Mandawala-COBSCCOMP181P029' do
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'BiometricAuthentication'
   # Pods for M.K.P.D-Mandawala-COBSCCOMP181P029
 
   target 'M.K.P.D-Mandawala-COBSCCOMP181P029Tests' do
