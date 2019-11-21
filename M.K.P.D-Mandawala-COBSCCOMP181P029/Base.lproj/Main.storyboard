@@ -210,6 +210,9 @@
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signUpTapped:" destination="u7K-eV-9Vs" eventType="touchUpInside" id="cXR-r5-z0m"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFd-oR-Q7g">
                                         <rect key="frame" x="0.0" y="360" width="334" height="20.5"/>
@@ -237,6 +240,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="grP-ii-Mfw"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Jh4-Qx-XIz" id="60x-Kh-V7v"/>
+                        <outlet property="errorLabel" destination="UFd-oR-Q7g" id="gwC-0P-Gn5"/>
+                        <outlet property="firstNameTextField" destination="9BY-wL-0iN" id="Xfs-ly-xcm"/>
+                        <outlet property="lastNameTextField" destination="Ec5-cE-RG5" id="SU0-0a-TlO"/>
+                        <outlet property="mobleNumberTextField" destination="SQs-Oi-xO7" id="G3y-YF-EgG"/>
+                        <outlet property="passwordTextField" destination="0rM-0y-r6Q" id="cmY-5R-e7w"/>
+                        <outlet property="signUpButton" destination="bb7-Zh-BD5" id="b5t-LE-puL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoI-nv-wZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
