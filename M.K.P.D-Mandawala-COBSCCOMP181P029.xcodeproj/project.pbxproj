@@ -24,6 +24,8 @@
 		FD72879423830CC8001AA5DF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72879323830CC8001AA5DF /* SignUpViewController.swift */; };
 		FD7EE86C23845ADE00978D77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD7EE86B23845ADE00978D77 /* GoogleService-Info.plist */; };
 		FD7EE86E2384732700978D77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EE86D2384732700978D77 /* Constants.swift */; };
+		FD980C6B2385B5E600459299 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C6A2385B5E600459299 /* MyProfileViewController.swift */; };
+		FD980C6F238663CB00459299 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C6E238663CB00459299 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		FD72879323830CC8001AA5DF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FD7EE86B23845ADE00978D77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD7EE86D2384732700978D77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FD980C6A2385B5E600459299 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		FD980C6E238663CB00459299 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,8 @@
 				FD72878E238305ED001AA5DF /* LoginViewController.swift */,
 				FD7287902383064C001AA5DF /* HomeViewController.swift */,
 				FD72879323830CC8001AA5DF /* SignUpViewController.swift */,
+				FD980C6A2385B5E600459299 /* MyProfileViewController.swift */,
+				FD980C6E238663CB00459299 /* TabViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -449,6 +455,8 @@
 				FD375C6E23712B15000194FC /* ViewController.swift in Sources */,
 				FD7EE86E2384732700978D77 /* Constants.swift in Sources */,
 				FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */,
+				FD980C6F238663CB00459299 /* TabViewController.swift in Sources */,
+				FD980C6B2385B5E600459299 /* MyProfileViewController.swift in Sources */,
 				FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

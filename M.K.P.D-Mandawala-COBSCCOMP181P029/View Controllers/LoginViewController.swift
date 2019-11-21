@@ -52,12 +52,13 @@ class LoginViewController: UIViewController {
                 self.errorLabel.alpha = 1
             }
             else {
-                let homeViewController =
+                // Directed to the home if pw & un correct
+                let tapViewController =
                     self.storyboard?.instantiateViewController(withIdentifier:
-                        Constants.Storyboard.homeViewController) as?
-                HomeViewController
+                        Constants.Storyboard.tapViewController) as?
+                TabViewController
                 
-                self.view.window?.rootViewController = homeViewController
+                self.view.window?.rootViewController = tapViewController
                 self.view.window?.makeKeyAndVisible()
             
             }
