@@ -362,7 +362,7 @@
         <!--Edit Post-->
         <scene sceneID="1kA-2C-3WF">
             <objects>
-                <viewController id="LID-kb-z2J" sceneMemberID="viewController">
+                <viewController id="LID-kb-z2J" customClass="AddPostViewController" customModule="M_K_P_D_Mandawala_COBSCCOMP181P029" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u7x-Tt-u9h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,21 +373,99 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-am-LHD">
+                                <rect key="frame" x="20" y="156" width="374" height="611"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vcv-qZ-ebp">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ucd-NF-qYD"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GIU-5I-hbF">
+                                        <rect key="frame" x="0.0" y="90" width="374" height="183"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OpD-XL-f2T">
+                                        <rect key="frame" x="0.0" y="323" width="374" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="ASM-3g-Fhs"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJQ-vT-dm0">
+                                        <rect key="frame" x="0.0" y="501" width="374" height="30"/>
+                                        <state key="normal" title="Upload Image"/>
+                                        <connections>
+                                            <action selector="tappedUploadImage:" destination="LID-kb-z2J" eventType="touchUpInside" id="Hf0-xO-1nm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wj-S3-icG">
+                                        <rect key="frame" x="0.0" y="581" width="374" height="30"/>
+                                        <color key="backgroundColor" red="0.21167101099999999" green="0.4664831606" blue="0.2109588137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Publish">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tappedPublish:" destination="LID-kb-z2J" eventType="touchUpInside" id="FKz-Tv-BlE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Vcv-qZ-ebp" firstAttribute="leading" secondItem="ifh-am-LHD" secondAttribute="leading" id="0mu-L5-CWq"/>
+                                    <constraint firstItem="5Wj-S3-icG" firstAttribute="top" secondItem="VJQ-vT-dm0" secondAttribute="bottom" constant="50" id="4BL-nc-Yzp"/>
+                                    <constraint firstItem="OpD-XL-f2T" firstAttribute="top" secondItem="GIU-5I-hbF" secondAttribute="bottom" constant="50" id="4wB-bn-IXi"/>
+                                    <constraint firstItem="VJQ-vT-dm0" firstAttribute="top" secondItem="OpD-XL-f2T" secondAttribute="bottom" constant="50" id="7Zh-u0-eck"/>
+                                    <constraint firstAttribute="trailing" secondItem="OpD-XL-f2T" secondAttribute="trailing" id="8QG-Js-nrG"/>
+                                    <constraint firstItem="GIU-5I-hbF" firstAttribute="leading" secondItem="ifh-am-LHD" secondAttribute="leading" id="DXq-JL-86S"/>
+                                    <constraint firstItem="5Wj-S3-icG" firstAttribute="leading" secondItem="ifh-am-LHD" secondAttribute="leading" id="Dvq-fw-Gf0"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vcv-qZ-ebp" secondAttribute="trailing" id="GNp-OZ-483"/>
+                                    <constraint firstItem="GIU-5I-hbF" firstAttribute="top" secondItem="Vcv-qZ-ebp" secondAttribute="bottom" constant="50" id="IrI-Wv-h10"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Wj-S3-icG" secondAttribute="bottom" id="K5N-3R-uhc"/>
+                                    <constraint firstItem="5Wj-S3-icG" firstAttribute="top" secondItem="VJQ-vT-dm0" secondAttribute="bottom" constant="50" id="bKf-42-a5q"/>
+                                    <constraint firstItem="Vcv-qZ-ebp" firstAttribute="top" secondItem="ifh-am-LHD" secondAttribute="top" id="edd-fH-vOH"/>
+                                    <constraint firstItem="OpD-XL-f2T" firstAttribute="leading" secondItem="ifh-am-LHD" secondAttribute="leading" id="frV-k2-Nrp"/>
+                                    <constraint firstItem="OpD-XL-f2T" firstAttribute="top" secondItem="GIU-5I-hbF" secondAttribute="bottom" constant="50" id="iGT-Oa-rzG"/>
+                                    <constraint firstItem="GIU-5I-hbF" firstAttribute="top" secondItem="Vcv-qZ-ebp" secondAttribute="bottom" constant="50" id="qGP-9Q-Izk"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Wj-S3-icG" secondAttribute="trailing" id="rYe-Au-P0A"/>
+                                    <constraint firstAttribute="trailing" secondItem="VJQ-vT-dm0" secondAttribute="trailing" id="wf3-Fm-Tlk"/>
+                                    <constraint firstItem="VJQ-vT-dm0" firstAttribute="leading" secondItem="ifh-am-LHD" secondAttribute="leading" id="xya-Im-Q1s"/>
+                                    <constraint firstAttribute="trailing" secondItem="GIU-5I-hbF" secondAttribute="trailing" id="z5E-hb-2zb"/>
+                                    <constraint firstItem="VJQ-vT-dm0" firstAttribute="top" secondItem="OpD-XL-f2T" secondAttribute="bottom" constant="50" id="zmd-AI-UcH"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Xdc-Vs-Iwl" firstAttribute="bottom" secondItem="TEE-0w-laS" secondAttribute="bottom" constant="696" id="CZt-pi-Txf"/>
+                            <constraint firstItem="Xdc-Vs-Iwl" firstAttribute="bottom" secondItem="ifh-am-LHD" secondAttribute="bottom" constant="46" id="Mki-Nr-9MT"/>
+                            <constraint firstItem="Xdc-Vs-Iwl" firstAttribute="trailing" secondItem="ifh-am-LHD" secondAttribute="trailing" constant="20" id="Oeb-dx-Bqf"/>
+                            <constraint firstItem="ifh-am-LHD" firstAttribute="top" secondItem="TEE-0w-laS" secondAttribute="bottom" constant="39" id="gEq-Tl-j4q"/>
                             <constraint firstItem="TEE-0w-laS" firstAttribute="leading" secondItem="Xdc-Vs-Iwl" secondAttribute="leading" constant="20" id="nj9-2R-BFO"/>
+                            <constraint firstItem="ifh-am-LHD" firstAttribute="leading" secondItem="Xdc-Vs-Iwl" secondAttribute="leading" constant="20" id="t4X-WS-tCg"/>
                             <constraint firstItem="TEE-0w-laS" firstAttribute="top" secondItem="Xdc-Vs-Iwl" secondAttribute="top" constant="43" id="vB1-Av-NBI"/>
                             <constraint firstItem="Xdc-Vs-Iwl" firstAttribute="trailing" secondItem="TEE-0w-laS" secondAttribute="trailing" constant="195" id="xGz-LD-bYL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xdc-Vs-Iwl"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Edit Post" image="icons8-edit-file-30" id="ifx-6h-vP2"/>
+                    <connections>
+                        <outlet property="postBodyTextField" destination="GIU-5I-hbF" id="QSP-Ua-6CT"/>
+                        <outlet property="postImage" destination="OpD-XL-f2T" id="mmz-Hl-g4g"/>
+                        <outlet property="postPublishButton" destination="5Wj-S3-icG" id="vhd-nj-F8K"/>
+                        <outlet property="postTitleTextField" destination="Vcv-qZ-ebp" id="tm0-Qd-ASV"/>
+                        <outlet property="uploadImageButton" destination="VJQ-vT-dm0" id="tvU-fF-vPG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Euo-Fb-wSJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1525" y="54"/>
+            <point key="canvasLocation" x="1524.6376811594205" y="53.571428571428569"/>
         </scene>
         <!--My Profile-->
         <scene sceneID="orm-vL-sdK">
