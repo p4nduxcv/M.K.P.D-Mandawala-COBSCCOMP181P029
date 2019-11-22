@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import FirebaseAuth
 
 class MyProfileViewController: UIViewController {
 
@@ -18,6 +18,7 @@ class MyProfileViewController: UIViewController {
     @IBOutlet weak var mobileNumberLabel: UILabel!
     @IBOutlet weak var fetchButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var logoutButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +45,26 @@ class MyProfileViewController: UIViewController {
     */
 
     //@IBAction func tappedFetchButton(_ sender: Any)
+    
+    @IBAction func tappedLogout(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            transitionToLogin()
+        } catch {
+            
+        }
+    }
+    func transitionToLogin() {
+        
+        let loginViewController = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.loginViewController) as? LoginViewController
+        
+        view.window?.rootViewController = loginViewController
+        view.window?.makeKeyAndVisible()
+        
+    }
+    
+    
+    
     func fetchUserDetails()
     {
         

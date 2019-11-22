@@ -618,21 +618,32 @@
                                     <constraint firstItem="sx2-qP-4gr" firstAttribute="height" secondItem="1Gr-n8-45Z" secondAttribute="height" id="pai-OZ-ee7"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ0-Zc-YyM">
+                                <rect key="frame" x="318" y="99" width="76" height="30"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="tappedLogout:" destination="9Uk-Sx-x4E" eventType="touchUpInside" id="Jbg-pW-nf1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="lp2-vX-mii" firstAttribute="top" secondItem="cIz-6a-tSJ" secondAttribute="bottom" constant="28" id="39b-iJ-yd2"/>
                             <constraint firstItem="TjU-It-1FV" firstAttribute="top" secondItem="qUG-dg-xbq" secondAttribute="top" constant="55" id="7N2-3f-sHI"/>
                             <constraint firstItem="lp2-vX-mii" firstAttribute="top" secondItem="cIz-6a-tSJ" secondAttribute="bottom" constant="28" id="7ft-3J-KOV"/>
+                            <constraint firstItem="YZ0-Zc-YyM" firstAttribute="leading" secondItem="TjU-It-1FV" secondAttribute="trailing" constant="152" id="CCu-ZV-sYe"/>
                             <constraint firstItem="cIz-6a-tSJ" firstAttribute="top" secondItem="TjU-It-1FV" secondAttribute="bottom" constant="59" id="E8h-Pi-3IE"/>
+                            <constraint firstItem="YZ0-Zc-YyM" firstAttribute="top" secondItem="qUG-dg-xbq" secondAttribute="top" constant="55" id="IyB-mS-yhr"/>
                             <constraint firstItem="cIz-6a-tSJ" firstAttribute="top" secondItem="TjU-It-1FV" secondAttribute="bottom" constant="59" id="KSV-Pu-Pi2"/>
                             <constraint firstItem="TjU-It-1FV" firstAttribute="leading" secondItem="qUG-dg-xbq" secondAttribute="leading" constant="20" id="O0W-1X-mcA"/>
                             <constraint firstItem="cIz-6a-tSJ" firstAttribute="leading" secondItem="qUG-dg-xbq" secondAttribute="leading" constant="107" id="RxP-dP-1XA"/>
+                            <constraint firstItem="qUG-dg-xbq" firstAttribute="trailing" secondItem="YZ0-Zc-YyM" secondAttribute="trailing" constant="20" id="WV3-dT-m5L"/>
                             <constraint firstItem="qUG-dg-xbq" firstAttribute="trailing" secondItem="lp2-vX-mii" secondAttribute="trailing" constant="146" id="XMw-SK-pQc"/>
                             <constraint firstItem="lp2-vX-mii" firstAttribute="leading" secondItem="qUG-dg-xbq" secondAttribute="leading" constant="146" id="aTS-An-XSg"/>
                             <constraint firstItem="qUG-dg-xbq" firstAttribute="trailing" secondItem="cIz-6a-tSJ" secondAttribute="trailing" constant="107" id="mLS-06-Y2n"/>
                             <constraint firstItem="qUG-dg-xbq" firstAttribute="trailing" secondItem="TjU-It-1FV" secondAttribute="trailing" constant="248" id="rCS-jm-ZSb"/>
                             <constraint firstItem="qUG-dg-xbq" firstAttribute="bottom" secondItem="lp2-vX-mii" secondAttribute="bottom" constant="211" id="vbG-PI-ngz"/>
+                            <constraint firstItem="qUG-dg-xbq" firstAttribute="bottom" secondItem="YZ0-Zc-YyM" secondAttribute="bottom" constant="684" id="wO4-yc-nju"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qUG-dg-xbq"/>
                     </view>
@@ -643,6 +654,7 @@
                         <outlet property="fetchButton" destination="7Cb-9Z-RHb" id="YZT-eY-bvd"/>
                         <outlet property="firstNameLabel" destination="1Gr-n8-45Z" id="WcL-Ul-oeZ"/>
                         <outlet property="lastNameLabel" destination="2yD-RX-WQV" id="ZAf-dl-hXF"/>
+                        <outlet property="logoutButton" destination="YZ0-Zc-YyM" id="y4o-Bl-Ph7"/>
                         <outlet property="mobileNumberLabel" destination="sx2-qP-4gr" id="UKV-3z-5wl"/>
                         <outlet property="profileImageView" destination="cIz-6a-tSJ" id="oz5-Zg-Adv"/>
                     </connections>
