@@ -24,10 +24,12 @@ class MyProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setupElement()
+        fetchUserDetails()
     }
     
     func setupElement(){
         errorLabel.alpha=0
+        fetchButton.alpha=0
     }
     
 
@@ -41,7 +43,9 @@ class MyProfileViewController: UIViewController {
     }
     */
 
-    @IBAction func tappedFetchButton(_ sender: Any) {
+    //@IBAction func tappedFetchButton(_ sender: Any)
+    func fetchUserDetails()
+    {
         
         let db = Firestore.firestore()
         
