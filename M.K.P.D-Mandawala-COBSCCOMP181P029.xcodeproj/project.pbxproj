@@ -28,6 +28,8 @@
 		FD980C6F238663CB00459299 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C6E238663CB00459299 /* TabViewController.swift */; };
 		FD980C752386BE2E00459299 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD980C742386BE2E00459299 /* ResetPasswordViewController.swift */; };
 		FDA071632387425100DB4DA3 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA071622387425100DB4DA3 /* AddPostViewController.swift */; };
+		FDA0716623876ED100DB4DA3 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0716523876ED100DB4DA3 /* CellView.swift */; };
+		FDA0716923876F0200DB4DA3 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0716823876F0200DB4DA3 /* PostModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		FD980C6E238663CB00459299 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		FD980C742386BE2E00459299 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		FDA071622387425100DB4DA3 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		FDA0716523876ED100DB4DA3 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		FDA0716823876F0200DB4DA3 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 		FD375C6A23712B15000194FC /* M.K.P.D-Mandawala-COBSCCOMP181P029 */ = {
 			isa = PBXGroup;
 			children = (
+				FDA0716723876EDB00DB4DA3 /* Models */,
+				FDA0716423876E8900DB4DA3 /* Cellview */,
 				FD7EE86A23844A9700978D77 /* Helpers */,
 				FD375C6B23712B15000194FC /* AppDelegate.swift */,
 				FD72879223830686001AA5DF /* View Controllers */,
@@ -212,6 +218,22 @@
 				FD7EE86D2384732700978D77 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FDA0716423876E8900DB4DA3 /* Cellview */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0716523876ED100DB4DA3 /* CellView.swift */,
+			);
+			path = Cellview;
+			sourceTree = "<group>";
+		};
+		FDA0716723876EDB00DB4DA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0716823876F0200DB4DA3 /* PostModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,9 +482,11 @@
 				FD72878F238305ED001AA5DF /* LoginViewController.swift in Sources */,
 				FD375C6E23712B15000194FC /* ViewController.swift in Sources */,
 				FD7EE86E2384732700978D77 /* Constants.swift in Sources */,
+				FDA0716923876F0200DB4DA3 /* PostModel.swift in Sources */,
 				FD375C6C23712B15000194FC /* AppDelegate.swift in Sources */,
 				FD980C6F238663CB00459299 /* TabViewController.swift in Sources */,
 				FD980C752386BE2E00459299 /* ResetPasswordViewController.swift in Sources */,
+				FDA0716623876ED100DB4DA3 /* CellView.swift in Sources */,
 				FD980C6B2385B5E600459299 /* MyProfileViewController.swift in Sources */,
 				FDA071632387425100DB4DA3 /* AddPostViewController.swift in Sources */,
 				FD375C7423712B15000194FC /* M_K_P_D_Mandawala_COBSCCOMP181P029.xcdatamodeld in Sources */,

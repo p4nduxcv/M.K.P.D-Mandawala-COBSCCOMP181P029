@@ -13,6 +13,7 @@ target 'M.K.P.D-Mandawala-COBSCCOMP181P029' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'BiometricAuthentication'
+  pod 'Nuke', '~>7.0'
   
   # Pods for M.K.P.D-Mandawala-COBSCCOMP181P029
 
