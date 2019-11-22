@@ -5,9 +5,9 @@ This App is related to the IOS module's assignment. this app contain posts publi
 COCOAPODS
 XCODE 10 
 
-### login credentials
+### Login credentials
 user name - pandula95@gmail.com
 password - lolsl123
 
-### other
+### Other
 user profile photos should want to upload to the backend if you want to add contact author  
